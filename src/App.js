@@ -31,6 +31,7 @@ class App extends React.Component {
     );
   }
 
+  //handleChange same as onSearchChange
   handleChange = (e) => {
     this.setState({ searchField: e.target.value });
   };
@@ -49,18 +50,28 @@ class App extends React.Component {
           placeholder="search monsters"
           handleChange={this.handleChange}
         />
-
-        {/* <input
-          type="search"
-          placeholder="search monsters"
-          onChange={(e) => this.setState({ searchField: e.target.value })}
-        /> */}
-
         <CardList monsters={filteredMonsters}></CardList>
-        {/* <CardList monsters={this.state.monsters}></CardList> */}
-        {/* <CardList name="Yihua" /> */}
       </div>
     );
+    // return (
+    //   <div className="App">
+    //     <h1> Monsters Rolodex</h1>
+    //     <SearchBox
+    //       placeholder="search monsters"
+    //       handleChange={this.handleChange}
+    //     />
+
+    //     {/* <input
+    //       type="search"
+    //       placeholder="search monsters"
+    //       onChange={(e) => this.setState({ searchField: e.target.value })}
+    //     /> */}
+
+    //     <CardList monsters={filteredMonsters}></CardList>
+    //     {/* <CardList monsters={this.state.monsters}></CardList> */}
+    //     {/* <CardList name="Yihua" /> */}
+    //   </div>
+    // );
   }
 }
 
