@@ -8,7 +8,7 @@ Following a react tutorial from ZTM (Zero To Mastery) to practice using react.
 - Robots lovingly delivered by [Robohash.org](https://robohash.org/)
 - Fake user info supplied by [jsonplaceholder](https://jsonplaceholder.typicode.com/)
 
-# things I learned
+# Things I learned
 - Making yourself a folder called components is good practice
   - In this folder make a new folder for each component you make and inside that
     - Then add in your jsx file and call it    featurename.component.jsx
